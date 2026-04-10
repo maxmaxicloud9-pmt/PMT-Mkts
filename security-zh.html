@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安全 | PMT 市场</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .font-noto-sc { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#0a0a0f',
+                        'card-dark': '#111118',
+                        'border-dark': '#222230',
+                        'cyber-blue': '#00d4ff',
+                        'growth-green': '#00ff88',
+                        'warning-orange': '#ffaa00',
+                        'error-red': '#ff5555'
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-bg text-white font-sans min-h-screen">
+    <nav class="fixed top-0 left-0 right-0 bg-dark-bg/95 backdrop-blur-sm border-b border-border-dark z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <a href="index-zh-complete.html" class="w-12 h-12 rounded-lg border-2 border-cyber-blue bg-black shadow-lg flex items-center justify-center">
+                        <div class="text-white text-2xl font-bold tracking-tighter">P</div>
+                    </a>
+                    <a href="index-zh-complete.html" class="text-xl font-bold">PMT 市场</a>
+                </div>
+                <a href="index-zh-complete.html" class="text-cyber-blue hover:underline">← 返回首页</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-6">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 font-noto-sc">安全</h1>
+                <p class="text-gray-400">保护您的数据和资产</p>
+            </div>
+
+            <div class="bg-card-dark border border-border-dark rounded-xl p-8">
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    在PMT市场，安全是我们运营的基础。我们采用深度防御策略，提供多层保护，以保护用户数据、金融资产和平台完整性。
+                </p>
+                
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue font-noto-sc">1. 数据保护与加密</h2>
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    我们在整个数据生命周期中实施强加密协议：
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2 font-noto-sc">
+                    <li><strong>传输层安全（TLS 1.3）：</strong>用户与我们平台之间传输的所有数据都经过传输加密</li>
+                    <li><strong>静态加密：</strong>敏感数据在存储时使用AES-256加密</li>
+                    <li><strong>密钥管理：</strong>使用硬件安全模块（HSMs）或云密钥管理服务管理加密密钥</li>
+                    <li><strong>数据库加密：</strong>个人身份信息（PII）和财务数据在数据库级别加密</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue font-noto-sc">2. 访问控制与身份验证</h2>
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    我们执行严格的访问控制以防止未经授权的访问：
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2 font-noto-sc">
+                    <li><strong>多因素身份验证（MFA）：</strong>所有用户账户和特权系统访问都需要</li>
+                    <li><strong>基于角色的访问控制（RBAC）：</strong>员工访问的最小权限原则</li>
+                    <li><strong>特权访问管理：</strong>管理功能的即时访问</li>
+                    <li><strong>会话管理：</strong>具有自动超时的安全会话处理</li>
+                    <li><strong>生物识别身份验证：</strong>移动访问的可选生物识别验证</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue font-noto-sc">3. 金融安全</h2>
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    保护金融资产和交易的特殊措施：
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2 font-noto-sc">
+                    <li><strong>冷存储：</strong>大多数数字资产存储在离线、气隙隔离的钱包中</li>
+                    <li><strong>多重签名钱包：</strong>重要交易需要多重批准</li>
+                    <li><strong>交易监控：</strong>对可疑金融活动进行实时监控</li>
+                    <li><strong>提款控制：</strong>大额提款的时间延迟和额外验证</li>
+                    <li><strong>保险覆盖：</strong>网络保险和犯罪保险政策</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue font-noto-sc">4. 安全测试与保证</h2>
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    定期测试以验证我们的安全控制：
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2 font-noto-sc">
+                    <li><strong>渗透测试：</strong>定期进行外部和内部渗透测试</li>
+                    <li><strong>漏洞扫描：</strong>网络和应用程序的自动扫描</li>
+                    <li><strong>漏洞赏金计划：</strong>奖励报告漏洞的安全研究人员</li>
+                    <li><strong>安全审计：</strong>独立的第三方安全评估</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue font-noto-sc">5. 安全联系与负责任披露</h2>
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    我们鼓励负责任地披露安全漏洞：
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2 font-noto-sc">
+                    <li>报告安全问题至：<span class="text-cyber-blue">security@pmtmarkets.com</span></li>
+                    <li>提供PGP密钥用于加密通信</li>
+                    <li>我们承诺在24小时内确认报告</li>
+                    <li>我们不会对善意行事的研究人员采取法律行动</li>
+                    <li>我们通过漏洞赏金计划为符合条件的漏洞提供奖励</li>
+                </ul>
+                
+                <p class="text-gray-300 text-sm mt-6 font-noto-sc">
+                    <em>注意：安全是一个持续的过程。我们不断评估和改进我们的安全措施，以应对不断发展的威胁。</em>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 px-6 border-t border-border-dark text-center text-gray-400 text-sm">
+        <div class="container mx-auto">
+            <p class="font-noto-sc">© 2026 PMT 市场。保留所有权利。</p>
+        </div>
+    </footer>
+</body>
+</html>

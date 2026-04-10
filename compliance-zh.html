@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合规 | PMT 市场</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .font-noto-sc { font-family: 'Noto Sans SC', sans-serif; }
+    </style>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#0a0a0f',
+                        'card-dark': '#111118',
+                        'border-dark': '#222230',
+                        'cyber-blue': '#00d4ff',
+                        'growth-green': '#00ff88',
+                        'warning-orange': '#ffaa00',
+                        'error-red': '#ff5555'
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-bg text-white font-sans min-h-screen">
+    <nav class="fixed top-0 left-0 right-0 bg-dark-bg/95 backdrop-blur-sm border-b border-border-dark z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <a href="index-zh-complete.html" class="w-12 h-12 rounded-lg border-2 border-cyber-blue bg-black shadow-lg flex items-center justify-center">
+                        <div class="text-white text-2xl font-bold tracking-tighter">P</div>
+                    </a>
+                    <a href="index-zh-complete.html" class="text-xl font-bold">PMT 市场</a>
+                </div>
+                <a href="index-zh-complete.html" class="text-cyber-blue hover:underline">← 返回首页</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-6">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 font-noto-sc">合规</h1>
+                <p class="text-gray-400">我们对监管标准的承诺</p>
+            </div>
+
+            <div class="bg-card-dark border border-border-dark rounded-xl p-8">
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    PMT 市场致力于以最高的监管合规标准和道德商业实践运营。本合规页面概述了我们在预测市场行业中满足法律和监管要求的方法。
+                </p>
+                
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue font-noto-sc">1. 监管框架</h2>
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    PMT 市场根据我们提供服务司法管辖区的适用金融法规运营。我们监控监管发展并调整我们的运营以保持合规：
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2 font-noto-sc">
+                    <li>与预测市场相关的金融服务法规</li>
+                    <li>消费者保护法律</li>
+                    <li>数据保护和隐私法规</li>
+                    <li>反洗钱和反恐怖主义融资法律</li>
+                    <li>市场行为和公平交易标准</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue font-noto-sc">2. 反洗钱（AML）计划</h2>
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    我们维护全面的AML计划，旨在防止我们的平台被用于洗钱或恐怖主义融资活动：
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2 font-noto-sc">
+                    <li><strong>客户尽职调查：</strong>对高风险客户的增强验证</li>
+                    <li><strong>交易监控：</strong>检测可疑活动的自动化系统</li>
+                    <li><strong>报告：</strong>及时向相关当局提交可疑活动报告</li>
+                    <li><strong>记录保存：</strong>在要求期间维护AML记录</li>
+                    <li><strong>培训：</strong>对相关员工进行定期AML培训</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue font-noto-sc">3. 了解你的客户（KYC）程序</h2>
+                <p class="text-gray-300 mb-6 font-noto-sc">
+                    我们实施强大的KYC程序以验证用户身份并评估其风险状况：
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2 font-noto-sc">
+                    <li>使用政府签发文件进行身份验证</li>
+                    <li>通过水电费账单或银行对账单进行地址验证</li>
+                    <li>对重大交易进行资金来源验证</li>
+                    <li>持续监控客户活动和风险状况</li>
+                    <li>对政治公众人物（PEPs）进行增强尽职调查</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue font-noto-sc">4. 合规联系</h2>
+                <p class="text-gray-300 font-noto-sc">
+                    有关合规查询或报告潜在违规行为，请联系：<span class="text-cyber-blue">compliance@pmtmarkets.com</span>
+                </p>
+                <p class="text-gray-300 text-sm mt-4 font-noto-sc">
+                    <em>注意：本合规页面提供有关我们合规计划的一般信息。它不构成法律建议。用户应就合规事宜咨询自己的法律顾问。</em>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 px-6 border-t border-border-dark text-center text-gray-400 text-sm">
+        <div class="container mx-auto">
+            <p class="font-noto-sc">© 2026 PMT 市场。保留所有权利。</p>
+        </div>
+    </footer>
+</body>
+</html>

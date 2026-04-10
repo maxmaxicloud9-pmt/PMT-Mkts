@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảo mật | PMT Thị trường</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#0a0a0f',
+                        'card-dark': '#111118',
+                        'border-dark': '#222230',
+                        'cyber-blue': '#00d4ff',
+                        'growth-green': '#00ff88',
+                        'warning-orange': '#ffaa00',
+                        'error-red': '#ff5555'
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-bg text-white font-sans min-h-screen">
+    <nav class="fixed top-0 left-0 right-0 bg-dark-bg/95 backdrop-blur-sm border-b border-border-dark z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <a href="index-vi-complete.html" class="w-12 h-12 rounded-lg border-2 border-cyber-blue bg-black shadow-lg flex items-center justify-center">
+                        <div class="text-white text-2xl font-bold tracking-tighter">P</div>
+                    </a>
+                    <a href="index-vi-complete.html" class="text-xl font-bold">PMT Thị trường</a>
+                </div>
+                <a href="index-vi-complete.html" class="text-cyber-blue hover:underline">← Quay lại Trang chủ</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-6">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Bảo mật</h1>
+                <p class="text-gray-400">Bảo vệ dữ liệu và tài sản của bạn</p>
+            </div>
+
+            <div class="bg-card-dark border border-border-dark rounded-xl p-8">
+                <p class="text-gray-300 mb-6">
+                    Tại PMT Thị trường, bảo mật là ưu tiên hàng đầu của chúng tôi. Chúng tôi sử dụng chiến lược phòng thủ theo chiều sâu với nhiều lớp bảo vệ để bảo vệ dữ liệu người dùng, tài sản tài chính và tính toàn vẹn của nền tảng.
+                </p>
+                
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue">1. Bảo vệ Dữ liệu & Mã hóa</h2>
+                <p class="text-gray-300 mb-6">
+                    Chúng tôi triển khai các giao thức mã hóa mạnh mẽ để bảo vệ dữ liệu trong suốt vòng đời của nó:
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2">
+                    <li><strong>Bảo mật Lớp Truyền tải (TLS 1.3):</strong> Tất cả dữ liệu truyền giữa người dùng và nền tảng của chúng tôi được mã hóa trong quá trình truyền</li>
+                    <li><strong>Mã hóa Khi Nghỉ:</strong> Dữ liệu nhạy cảm được mã hóa bằng mã hóa AES-256 khi lưu trữ</li>
+                    <li><strong>Quản lý Khóa:</strong> Khóa mã hóa được quản lý bằng mô-đun bảo mật phần cứng (HSMs) hoặc dịch vụ quản lý khóa đám mây</li>
+                    <li><strong>Mã hóa Cơ sở Dữ liệu:</strong> Thông tin nhận dạng cá nhân (PII) và dữ liệu tài chính được mã hóa ở cấp cơ sở dữ liệu</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue">2. Kiểm soát Truy cập & Xác thực</h2>
+                <p class="text-gray-300 mb-6">
+                    Chúng tôi thực thi kiểm soát truy cập nghiêm ngặt để ngăn chặn truy cập trái phép:
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2">
+                    <li><strong>Xác thực Đa yếu tố (MFA):</strong> Bắt buộc cho tất cả tài khoản người dùng và quyền truy cập hệ thống đặc quyền</li>
+                    <li><strong>Kiểm soát Truy cập Dựa trên Vai trò (RBAC):</strong> Nguyên tắc đặc quyền tối thiểu cho quyền truy cập của nhân viên</li>
+                    <li><strong>Quản lý Truy cập Đặc quyền:</strong> Truy cập đúng lúc cho các chức năng quản trị</li>
+                    <li><strong>Quản lý Phiên:</strong> Xử lý phiên an toàn với thời gian chờ tự động</li>
+                    <li><strong>Xác thực Sinh trắc học:</strong> Xác minh sinh trắc học tùy chọn cho truy cập di động</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue">3. Bảo mật Tài chính</h2>
+                <p class="text-gray-300 mb-6">
+                    Các biện pháp đặc biệt để bảo vệ tài sản và giao dịch tài chính:
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2">
+                    <li><strong>Lưu trữ Lạnh:</strong> Phần lớn tài sản kỹ thuật số được lưu trữ trong ví ngoại tuyến, cách ly không khí</li>
+                    <li><strong>Ví Đa chữ ký:</strong> Yêu cầu nhiều phê duyệt cho các giao dịch quan trọng</li>
+                    <li><strong>Giám sát Giao dịch:</strong> Giám sát thời gian thực cho hoạt động tài chính đáng ngờ</li>
+                    <li><strong>Kiểm soát Rút tiền:</strong> Thời gian trễ và xác minh bổ sung cho các khoản rút lớn</li>
+                    <li><strong>Bảo hiểm:</strong> Chính sách bảo hiểm mạng và bảo hiểm tội phạm</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue">4. Thử nghiệm & Đảm bảo Bảo mật</h2>
+                <p class="text-gray-300 mb-6">
+                    Kiểm tra thường xuyên để xác thực các biện pháp kiểm soát bảo mật của chúng tôi:
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2">
+                    <li><strong>Kiểm tra Thâm nhập:</strong> Kiểm tra thâm nhập bên ngoài và nội bộ thường xuyên</li>
+                    <li><strong>Quét Lỗ hổng:</strong> Quét tự động mạng và ứng dụng</li>
+                    <li><strong>Chương trình Tiền thưởng Lỗi:</strong> Phần thưởng cho các nhà nghiên cứu bảo mật báo cáo lỗ hổng</li>
+                    <li><strong>Kiểm toán Bảo mật:</strong> Đánh giá bảo mật của bên thứ ba độc lập</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold mb-4 text-cyber-blue">5. Liên hệ Bảo mật & Tiết lộ Có trách nhiệm</h2>
+                <p class="text-gray-300 mb-6">
+                    Chúng tôi khuyến khích tiết lộ có trách nhiệm về lỗ hổng bảo mật:
+                </p>
+                <ul class="text-gray-300 mb-6 list-disc pl-6 space-y-2">
+                    <li>Báo cáo sự cố bảo mật tại: <span class="text-cyber-blue">security@pmtmarkets.com</span></li>
+                    <li>Khóa PGP có sẵn cho liên lạc được mã hóa</li>
+                    <li>Chúng tôi cam kết xác nhận báo cáo trong vòng 24 giờ</li>
+                    <li>Chúng tôi sẽ không thực hiện hành động pháp lý chống lại các nhà nghiên cứu hành động thiện chí</li>
+                    <li>Chúng tôi cung cấp phần thưởng cho các lỗ hổng đủ điều kiện thông qua chương trình tiền thưởng lỗi của chúng tôi</li>
+                </ul>
+                
+                <p class="text-gray-300 text-sm mt-6">
+                    <em>Lưu ý: Bảo mật là một quá trình liên tục. Chúng tôi liên tục đánh giá và cải thiện các biện pháp bảo mật của mình để giải quyết các mối đe dọa đang phát triển.</em>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 px-6 border-t border-border-dark text-center text-gray-400 text-sm">
+        <div class="container mx-auto">
+            <p>© 2026 PMT Thị trường. Đã đăng ký bản quyền.</p>
+        </div>
+    </footer>
+</body>
+</html>
