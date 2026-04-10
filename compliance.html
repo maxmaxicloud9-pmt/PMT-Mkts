@@ -9,6 +9,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#0a0a0f',
+                        'card-dark': '#111118',
+                        'border-dark': '#222230',
+                        'cyber-blue': '#00d4ff',
+                        'growth-green': '#00ff88',
+                        'warning-orange': '#ffaa00',
+                        'error-red': '#ff5555'
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body class="bg-dark-bg text-white font-sans min-h-screen">
     <nav class="fixed top-0 left-0 right-0 bg-dark-bg/95 backdrop-blur-sm border-b border-border-dark z-50">
