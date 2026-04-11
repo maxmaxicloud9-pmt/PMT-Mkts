@@ -42,6 +42,7 @@
                     </a>
                     <a href="index.html" class="text-xl font-bold">PMT Markets</a>
                 </div>
+                <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="index.html" class="hover:text-cyber-blue transition">Home</a>
                     <a href="index.html#company" class="hover:text-cyber-blue transition">Company</a>
@@ -50,8 +51,28 @@
                     <a href="index.html#technology" class="hover:text-cyber-blue transition">Technology</a>
                     <a href="index.html#contact" class="hover:text-cyber-blue transition">Contact</a>
                 </div>
-                <!-- Language Switcher -->
-                <div class="relative">
+                
+                <!-- Right-side Hamburger Menu for Mobile -->
+                <div class="md:hidden">
+                    <button id="mobileMenuButton" class="p-2 rounded-lg border border-border-dark hover:bg-card-dark transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Right-side Hamburger Menu for Mobile -->
+                <div class="md:hidden">
+                    <button onclick="window.location.href='index.html'" class="p-2 rounded-lg border border-border-dark hover:bg-card-dark transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Desktop Language Switcher -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <div class="relative" id="languageSwitcherContainer">
                     <button id="languageSwitcherButton" class="flex items-center space-x-2 px-3 py-2 rounded-lg border border-cyber-blue bg-cyber-blue/10 hover:bg-cyber-blue/20 transition">
                         <span>🌐</span>
                         <span class="font-medium">EN</span>
